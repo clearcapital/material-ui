@@ -1,9 +1,13 @@
 ## HEAD
 
+###### _Dec 4, 2017_
+
+- [Popover] Fix positioning bug by removing timeout
+
 
 ###### _Dec 3, 2017_
 
-As usual, we are focusing on bug fixes but this time, we introduce an exceptional breaking change, 
+As usual, we are focusing on bug fixes but this time, we introduce an exceptional breaking change,
 consistent with the removal of `onTouchTap`for `onClick` in v0.19.0 (#7624).
 
 Big thanks to the 10 contributors who made this release possible.
