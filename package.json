@@ -1,8 +1,8 @@
 {
-  "name": "material-ui-build",
-  "private": true,
-  "author": "Material-UI Team",
-  "version": "0.20.1",
+  "name": "cc-material-ui",
+  "private": false,
+  "author": "CC JS Team / Material-UI Team",
+  "version": "0.20.0",
   "description": "React Components that Implement Google's Material Design.",
   "main": "./src/index.js",
   "keywords": [
@@ -13,11 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/callemall/material-ui.git"
+    "url": "https://github.com/clearcapital/material-ui.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/callemall/material-ui/issues"
+    "url": "https://github.com/clearcapital/material-ui/issues"
   },
   "homepage": "http://material-ui.com/",
   "scripts": {
