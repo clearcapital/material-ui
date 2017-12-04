@@ -139,7 +139,7 @@ class Popover extends Component {
   }
 
   componentDidMount() {
-    this.placementTimeout = setTimeout(this.setPlacement);
+    this.setPlacement();
   }
 
   componentWillReceiveProps(nextProps) {
@@ -175,18 +175,12 @@ class Popover extends Component {
   }
 
   componentDidUpdate() {
-    clearTimeout(this.placementTimeout);
-    this.placementTimeout = setTimeout(this.setPlacement);
+    this.setPlacement();
   }
 
   componentWillUnmount() {
     this.handleResize.cancel();
     this.handleScroll.cancel();
-
-    if (this.placementTimeout) {
-      clearTimeout(this.placementTimeout);
-      this.placementTimeout = null;
-    }
 
     if (this.timeout) {
       clearTimeout(this.timeout);
